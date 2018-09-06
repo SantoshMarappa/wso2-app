@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="AllSchools" groupId="com.example.SchoolFinderApp.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/AllSchools.xml</file>
+    </artifact>
+    <artifact name="SchoolFInderAPI" groupId="com.example.SchoolFinderApp.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/SchoolFInderAPI.xml</file>
+    </artifact>
+    <artifact name="GetByCity" groupId="com.example.SchoolFinderApp.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/GetByCity.xml</file>
+    </artifact>
+    <artifact name="GetByPostCode" groupId="com.example.SchoolFinderApp.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/GetByPostCode.xml</file>
+    </artifact>
+    <artifact name="SchoolfinderbycityAPI" groupId="com.example.SchoolFinderApp.api" version="1.0.0" type="synapse/api" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/api/SchoolfinderbycityAPI.xml</file>
+    </artifact>
+</artifacts>

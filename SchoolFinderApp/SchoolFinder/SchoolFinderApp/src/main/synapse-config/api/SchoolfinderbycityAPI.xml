@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/schoolfinderbycity" name="SchoolfinderbycityAPI" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/bycity/{city}">
+        <inSequence>
+            <log description="City log" level="custom">
+                <property name="message" value="Welcome to School Finder Service to find school by City"/>
+            </log>
+            <send>
+                <endpoint key="GetByCity"/>
+            </send>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>

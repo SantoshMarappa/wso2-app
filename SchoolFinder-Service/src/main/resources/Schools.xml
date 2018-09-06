@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schools>
+  <School>
+    <Name>Alderman's Green Community</Name>
+    <Address>Alderman's Green Road</Address>
+    <Postcode>CV2 1PP</Postcode>
+    <City>Coventry</City>
+    <Telephone>024 7668 8918</Telephone>
+    <Email>admin@aldermansgreen.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Broad Heath Community</Name>
+    <Address>Hanford Close</Address>
+    <Postcode>CV6 5DP</Postcode>
+    <City>Coventry</City>    
+    <Telephone>024 7668 9558</Telephone>
+    <Email>admin@broadheath.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Cannon Park</Name>
+    <Address>Bransford Avenue</Address>
+    <Postcode>CV4 7PS</Postcode>
+    <City>Coventry</City>    
+    <Telephone>024 7641 4683</Telephone>
+    <Email>admin@cannonpark.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Earlsdon</Name>
+    <Address>Earlsdon Avenue North</Address>
+    <Postcode>CV5 6FZ</Postcode>
+    <City>Coventry</City>    
+    <Telephone>024 7667 2917</Telephone>
+    <Email>admin@earlsdon.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Frederick Bird</Name>
+    <Address>Swan Lane</Address>
+    <Postcode>CV2 4QQ</Postcode>
+    <City>Coventry</City>    
+    <Telephone>024 7622 1920</Telephone>
+    <Email>admin@frederickbird.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Gosford Park</Name>
+    <Address>Humber Avenue</Address>
+    <Postcode>CV1 2SF</Postcode>
+    <City>Coventry</City>    
+    <Telephone>024 7622 3281</Telephone>
+    <Email>office@gosfordpark.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Henley Green School and Community Centre</Name>
+    <Address>Wyken Croft</Address>
+    <Postcode>CV2 1HQ</Postcode>
+    <City>Coventry</City>    
+    <Telephone>024 7661 3163</Telephone>
+    <Email>office@henleygreen.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>John Gulson</Name>
+    <Address>George Street</Address>
+    <Postcode>CV1 4HB</Postcode>
+    <City>Coventry</City>
+    <Telephone>024 7622 7791</Telephone>
+    <Email>admin@johngulson.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Leigh Church of England</Name>
+    <Address>Plantshill Crescent</Address>
+    <Postcode>CV4 9RQ</Postcode>
+    <City>Coventry</City>
+    <Telephone>024 7646 4475</Telephone>
+    <Email>headteacher@leigh.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Manor Park</Name>
+    <Address>Ulverscroft Road</Address>
+    <Postcode>CV3 5EZ</Postcode>
+    <City>Coventry</City>
+    <Telephone>024 7650 1736</Telephone>
+    <Email>admin@manorpark.coventry.sch.uk</Email>
+  </School>
+  <School>
+    <Name>Park Hill</Name>
+    <Address>Lower Eastern Green Lane</Address>
+    <Postcode>CV5 7LR</Postcode>
+    <City>Coventry</City>
+    <Telephone>024 7646 6669</Telephone>
+    <Email>adminstaff@parkhill.coventry.sch.uk</Email>
+  </School>  
+  <School>
+    <Name>Acorns</Name>
+    <Address>Long Compton Shipston On Stour</Address>
+    <Postcode>CV36 5LA</Postcode>
+    <City>Warwickshire</City>
+    <Telephone>016 0868 4654</Telephone>
+    <Email>admin2639@welearn365.com</Email>
+  </School>       
+</Schools>
