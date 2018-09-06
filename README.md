@@ -1,5 +1,5 @@
 # wso2-app
-SchoolFinder-Service is MicroService developed using MSFJ
+SchoolFinder-Service is MicroService developed using MSFJ version 6.3.0
 
 which fetch the school from xml (school.xml)
 
@@ -31,7 +31,7 @@ Create a JSON file names request.json with the following request payload.
 		
 curl -v -X POST --data @request.json http://localhost:9090/schoolfinder/ --header "Content-Type:application/json"
 
-If you want to Test this application wso2 EI
+If you want to Test this application wso2 EI verion 6.3.0
 Deploy SchoolFinderAppCompositeApplication_1.0.0.car or you create car by downloading all the file from the repository. 
 
 To fetch all the school 
