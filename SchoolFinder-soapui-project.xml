@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project
+	id="ee06d44e-8d60-4f24-9891-c3153e32bad0" activeEnvironment="Default"
+	name="SchoolFinder" resourceRoot="${projectDir}" soapui-version="5.4.0"
+	abortOnError="false" runType="SEQUENTIAL"
+	xmlns:con="http://eviware.com/soapui/config">
+	<con:settings />
+	<con:interface xsi:type="con:RestService"
+		id="11f1e419-100a-46a3-a952-27bee5743a65"
+		wadlVersion="http://wadl.dev.java.net/2009/02"
+		name="http://localhost:9090" type="rest"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<con:settings />
+		<con:definitionCache type="TEXT" rootPart="" />
+		<con:endpoints>
+			<con:endpoint>http://localhost:9090</con:endpoint>
+		</con:endpoints>
+		<con:resource name="All" path=""
+			id="8efb6b8d-fbf9-4a8d-9876-799011b88e28">
+			<con:settings />
+			<con:parameters />
+			<con:method name="All 1"
+				id="7fba3cb9-83c6-4b40-8a31-4f97d9670435" method="GET">
+				<con:settings />
+				<con:parameters />
+				<con:representation type="RESPONSE">
+					<con:mediaType>application/json</con:mediaType>
+					<con:status>200</con:status>
+					<con:params />
+					<con:element
+						xmlns:all="http://localhost/schoolfinder/all">all:Response</con:element>
+				</con:representation>
+				<con:representation type="FAULT">
+					<con:mediaType xsi:nil="true" />
+					<con:status>404</con:status>
+					<con:params />
+					<con:element>data</con:element>
+				</con:representation>
+				<con:representation type="FAULT">
+					<con:mediaType xsi:nil="true" />
+					<con:status>404</con:status>
+					<con:params />
+					<con:element>data</con:element>
+				</con:representation>
+				<con:request name="AllSchools"
+					id="15ab6ff4-a2ce-4a20-a7e3-ea02af182b52"
+					mediaType="application/json">
+					<con:settings>
+						<con:setting
+							id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+					</con:settings>
+					<con:endpoint>http://localhost:9090/schoolfinder/all</con:endpoint>
+					<con:request />
+					<con:originalUri>http://localhost/schoolfinder/all
+					</con:originalUri>
+					<con:credentials>
+						<con:authType>No Authorization</con:authType>
+					</con:credentials>
+					<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+					<con:jmsPropertyConfig />
+					<con:parameters />
+					<con:parameterOrder>
+						<con:entry />
+					</con:parameterOrder>
+				</con:request>
+			</con:method>
+		</con:resource>
+	</con:interface>
+	<con:interface xsi:type="con:RestService"
+		id="538227b4-601c-4136-b3bc-3b745f1e0340"
+		wadlVersion="http://wadl.dev.java.net/2009/02"
+		name="http://localhost:9090" type="rest"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<con:settings />
+		<con:definitionCache type="TEXT" rootPart="" />
+		<con:endpoints>
+			<con:endpoint>http://localhost:9090</con:endpoint>
+		</con:endpoints>
+		<con:resource name="CV4 7PS" path=""
+			id="d442fbc2-1e0a-4dd4-b924-dd6e2dddda69">
+			<con:settings />
+			<con:parameters />
+			<con:method name="CV4 7PS 1"
+				id="e62f6659-b0fa-4273-997c-7a766121721e" method="GET">
+				<con:settings />
+				<con:parameters />
+				<con:representation type="FAULT">
+					<con:mediaType xsi:nil="true" />
+					<con:status>404</con:status>
+					<con:params />
+					<con:element>data</con:element>
+				</con:representation>
+				<con:representation type="RESPONSE">
+					<con:mediaType>application/json</con:mediaType>
+					<con:status>200</con:status>
+					<con:params />
+					<con:element xmlns:loc="http://localhost/">loc:Response</con:element>
+				</con:representation>
+				<con:representation type="FAULT">
+					<con:mediaType xsi:nil="true" />
+					<con:status>404</con:status>
+					<con:params />
+					<con:element>data</con:element>
+				</con:representation>
+				<con:request name="ByPostCode"
+					id="91921b9f-9c34-47c1-aeeb-88e11ce0188b"
+					mediaType="application/json">
+					<con:settings>
+						<con:setting
+							id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+					</con:settings>
+					<con:endpoint>http://localhost:9090/schoolfinder/ByPostCode/CV4 7PS
+					</con:endpoint>
+					<con:request />
+					<con:originalUri>http://localhost/</con:originalUri>
+					<con:credentials>
+						<con:authType>No Authorization</con:authType>
+					</con:credentials>
+					<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+					<con:jmsPropertyConfig />
+					<con:parameters />
+				</con:request>
+			</con:method>
+		</con:resource>
+	</con:interface>
+	<con:interface xsi:type="con:RestService"
+		id="4b10d8c0-45fd-422c-8cc4-687591e1ab42"
+		wadlVersion="http://wadl.dev.java.net/2009/02"
+		name="http://localhost:9090" type="rest"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<con:settings />
+		<con:definitionCache type="TEXT" rootPart="" />
+		<con:endpoints>
+			<con:endpoint>http://localhost:9090</con:endpoint>
+		</con:endpoints>
+		<con:resource name="Warwickshire" path=""
+			id="38559e92-ab78-4934-9a69-3d8585c005fd">
+			<con:settings />
+			<con:parameters />
+			<con:method name="Warwickshire 1"
+				id="c750295a-2e8d-4567-bf37-830591bc05cc" method="GET">
+				<con:settings />
+				<con:parameters />
+				<con:representation type="RESPONSE">
+					<con:mediaType>application/json</con:mediaType>
+					<con:status>200</con:status>
+					<con:params />
+					<con:element
+						xmlns:war="http://localhost/schoolfinder/ByCity/Warwickshire">war:Response</con:element>
+				</con:representation>
+				<con:request name="ByCity"
+					id="91b32f21-0d7c-493c-8c92-4324d3e52d75"
+					mediaType="application/json">
+					<con:settings>
+						<con:setting
+							id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+					</con:settings>
+					<con:endpoint>http://localhost:9090/schoolfinder/ByCity/Warwickshire
+					</con:endpoint>
+					<con:request />
+					<con:originalUri>http://localhost/schoolfinder/ByCity/Warwickshire
+					</con:originalUri>
+					<con:credentials>
+						<con:authType>No Authorization</con:authType>
+					</con:credentials>
+					<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+					<con:jmsPropertyConfig />
+					<con:parameters />
+				</con:request>
+			</con:method>
+		</con:resource>
+	</con:interface>
+	<con:testSuite id="a7ac12ac-d1e8-44a0-9bca-822c9bde67ad"
+		name="Case1">
+		<con:settings />
+		<con:runType>SEQUENTIAL</con:runType>
+		<con:testCase id="bebb27ef-3ac2-45d9-a6c3-12bac9c66116"
+			failOnError="true" failTestCaseOnErrors="true" keepSession="false"
+			maxResults="0" name="ByPostCode" searchProperties="true">
+			<con:settings />
+			<con:testStep type="restrequest"
+				name="CV4 7PS 1 - ByPostCode"
+				id="f37654c6-a95f-42b4-befa-d4556b63a1be">
+				<con:settings />
+				<con:config service="http://localhost:9090"
+					resourcePath="" methodName="CV4 7PS 1"
+					xsi:type="con:RestRequestStep"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:restRequest name="CV4 7PS 1 - ByPostCode"
+						id="91921b9f-9c34-47c1-aeeb-88e11ce0188b"
+						mediaType="application/json">
+						<con:settings>
+							<con:setting
+								id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+						</con:settings>
+						<con:endpoint>http://localhost:9090/schoolfinder/ByPostCode/CV4
+							7PS</con:endpoint>
+						<con:request />
+						<con:originalUri>http://localhost/</con:originalUri>
+						<con:assertion type="Simple Contains"
+							id="f788b532-68de-4240-b2ab-90f2037aa3bc" name="Contains">
+							<con:configuration>
+								<token>Cannon Park</token>
+								<ignoreCase>false</ignoreCase>
+								<useRegEx>false</useRegEx>
+							</con:configuration>
+						</con:assertion>
+						<con:credentials>
+							<con:authType>No Authorization</con:authType>
+						</con:credentials>
+						<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+						<con:jmsPropertyConfig />
+						<con:parameters />
+					</con:restRequest>
+				</con:config>
+			</con:testStep>
+			<con:properties />
+		</con:testCase>
+		<con:testCase id="0e1a7b31-880b-4cb2-8715-8b9de8d9a31d"
+			failOnError="true" failTestCaseOnErrors="true" keepSession="false"
+			maxResults="0" name="ByCity- Negative Test" searchProperties="true">
+			<con:settings />
+			<con:testStep type="restrequest"
+				name="Warwickshire 1 - ByCity"
+				id="d8e14099-e1a4-4e8f-b58e-29aaf5710975">
+				<con:settings />
+				<con:config service="http://localhost:9090"
+					resourcePath="" methodName="Warwickshire 1"
+					xsi:type="con:RestRequestStep"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:restRequest name="Warwickshire 1 - ByCity"
+						id="91b32f21-0d7c-493c-8c92-4324d3e52d75"
+						mediaType="application/json">
+						<con:settings>
+							<con:setting
+								id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+						</con:settings>
+						<con:endpoint>http://localhost:9090/schoolfinder/ByCity/Warwickshire
+						</con:endpoint>
+						<con:request />
+						<con:originalUri>http://localhost/schoolfinder/ByCity/Warwickshire
+						</con:originalUri>
+						<con:assertion type="Simple Contains"
+							id="35552c37-1376-4c00-b997-aa7384b7b1d1" name="Contains">
+							<con:configuration>
+								<token>Acorns</token>
+								<ignoreCase>false</ignoreCase>
+								<useRegEx>false</useRegEx>
+							</con:configuration>
+						</con:assertion>
+						<con:assertion type="Simple NotContains"
+							id="32263109-1746-42aa-8c3c-7b6bfb84ef7d" name="Not Contains">
+							<con:configuration>
+								<token>CampHill</token>
+								<ignoreCase>false</ignoreCase>
+								<useRegEx>false</useRegEx>
+							</con:configuration>
+						</con:assertion>
+						<con:credentials>
+							<con:authType>No Authorization</con:authType>
+						</con:credentials>
+						<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+						<con:jmsPropertyConfig />
+						<con:parameters />
+					</con:restRequest>
+				</con:config>
+			</con:testStep>
+			<con:properties />
+		</con:testCase>
+		<con:testCase id="da9837b8-75db-4872-b8d7-cc6bfddad20c"
+			failOnError="true" failTestCaseOnErrors="true" keepSession="false"
+			maxResults="0" name="FetchAll" searchProperties="true">
+			<con:settings />
+			<con:testStep type="restrequest"
+				name="All 1 - AllSchools" id="305d5dc6-2ce2-47d9-ac10-fdb41c84da38">
+				<con:settings />
+				<con:config service="http://localhost:9090"
+					resourcePath="" methodName="All 1" xsi:type="con:RestRequestStep"
+					xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+					<con:restRequest name="All 1 - AllSchools"
+						id="15ab6ff4-a2ce-4a20-a7e3-ea02af182b52"
+						mediaType="application/json">
+						<con:settings>
+							<con:setting
+								id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+						</con:settings>
+						<con:endpoint>http://localhost:9090/schoolfinder/all
+						</con:endpoint>
+						<con:request />
+						<con:originalUri>http://localhost/schoolfinder/all
+						</con:originalUri>
+						<con:assertion type="Simple Contains"
+							id="a5baaa60-2f5c-495b-931b-0b58e04faa03" name="Contains">
+							<con:configuration>
+								<token>Park Hill</token>
+								<ignoreCase>false</ignoreCase>
+								<useRegEx>false</useRegEx>
+							</con:configuration>
+						</con:assertion>
+						<con:credentials>
+							<con:authType>No Authorization</con:authType>
+						</con:credentials>
+						<con:jmsConfig JMSDeliveryMode="PERSISTENT" />
+						<con:jmsPropertyConfig />
+						<con:parameters />
+						<con:parameterOrder>
+							<con:entry />
+						</con:parameterOrder>
+					</con:restRequest>
+				</con:config>
+			</con:testStep>
+			<con:properties />
+		</con:testCase>
+		<con:properties />
+	</con:testSuite>
+	<con:properties />
+	<con:wssContainer />
+	<con:oAuth2ProfileContainer />
+	<con:oAuth1ProfileContainer />
+</con:soapui-project>
